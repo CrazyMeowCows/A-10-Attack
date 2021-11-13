@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.net.URL;
 import javax.imageio.ImageIO;
 
-//Ur mama gay haha 69
 @SuppressWarnings("serial")
 public class GroundAttack extends JPanel {
 
