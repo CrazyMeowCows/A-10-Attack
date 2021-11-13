@@ -47,8 +47,8 @@ public class GroundAttack extends JPanel {
 
         Timer timer = new Timer(20, new ActionListener() {
             public void actionPerformed(ActionEvent evt) {
-                if(keys[0] && warthogY > grid*16){warthogY -= grid;}
-                if(keys[2] && warthogY < h-grid*16){warthogY += grid;}
+                if(keys[0] && warthogY > grid*18){warthogY -= 2*grid;}
+                if(keys[2] && warthogY < h-grid*18){warthogY += 2*grid;}
                 
                 for(int i = 0; i < dunes.length; i += 2){
                     dunes[i] -= grid;
